@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+
+html, body{
+    height: 80%;
+    width:80%;
+    
+}
+
+.textBox{
+    height: 250px;
+    width: 98.8%;
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+
+   
+}
+
+main{
+    padding: 5px;
+    display: grid;
+    background-color: white;
+    height: 100%;
+}
+
+div{
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+main{
+    grid-template-areas: 
+    "clear backspace divide multiply"
+    "one two three subtract"
+    "four five six add"
+    "seven eight nine enter"
+    "zero zero dot enter";
+}
+
+.clear{
+    background-color: rgb(208, 207, 207);
+    grid-area: clear;
+}
+.backspace{
+    background-color: rgb(208, 207, 207);
+    grid-area: backspace;
+}
+.add{
+    background-color: rgb(208, 207, 207);
+    grid-area: add;
+}
+.subtract{
+    background-color: rgb(208, 207, 207);
+    grid-area: subtract;
+}
+.multiply{
+    background-color: rgb(208, 207, 207);
+    grid-area: multiply;
+}
+.divide{
+    background-color: rgb(208, 207, 207);
+    grid-area: divide;
+}
+.enter{
+    background-color: rgb(208, 207, 207);
+    grid-area: enter;
+}
+.dot{
+    background-color: rgb(208, 207, 207);
+    grid-area: dot;
+}
+.one{
+    background-color: rgb(208, 207, 207);
+    grid-area: one;
+}
+.two{
+    background-color: rgb(208, 207, 207);
+    grid-area: two;
+}
+.three{
+    background-color: rgb(208, 207, 207);
+    grid-area: three;
+}
+.four{
+    background-color: rgb(208, 207, 207);
+    grid-area: four;
+}
+.five{
+    background-color: rgb(208, 207, 207);
+    grid-area: five;
+}
+.six{
+    background-color: rgb(208, 207, 207);
+    grid-area: six;
+}
+.seven{
+    background-color: rgb(208, 207, 207);
+    grid-area: seven;
+}
+.eight{
+    background-color: rgb(208, 207, 207);
+    grid-area: eight;
+}
+.nine{
+    background-color: rgb(208, 207, 207);
+    grid-area: nine;
+}
+.zero{
+    background-color: rgb(208, 207, 207);
+    grid-area: zero;
+}
+
+
+
+
+
